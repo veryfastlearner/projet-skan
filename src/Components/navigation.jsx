@@ -1,12 +1,20 @@
-import React from 'react';
+import React from "react";
 function navigation(){
-    const categories=["car","laptop","camera"]
+    const categories = [
+    "Woman's Fashion",
+    "Men's Fashion", 
+    "Electronics",
+    "Home & Lifestyle",
+    "Medicine",
+    "Sports & Outdoor",
+    "Baby's & Toys",
+    "Groceries & Pets",
+    "Health & Beauty"
+    ];
     return(<nav className="navigation">
         <ul>
-            {categories.map((category,index)=><li key={index}>{category}</li>)}
+            {categories.map((category,index)=>(<li key={index}>{category}</li>))}
         </ul>
-        </nav>
-    )
-
+    </nav>);
 }
 export default navigation;
