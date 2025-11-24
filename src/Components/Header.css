@@ -25,3 +25,17 @@
   align-items: center;
   gap: 4rem;
 }
+.navbar span {
+  cursor: pointer;
+}
+
+.navbar span:hover{
+  color:red;
+}
+.navbar button {
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  color: red;
+}
